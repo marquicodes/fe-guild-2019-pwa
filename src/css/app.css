@@ -1,7 +1,9 @@
-body {
-    -webkit-user-select: none;
-    -webkit-tap-highlight-color: transparent;
-    -webkit-touch-callout: none;
+@media all and (display-mode: standalone) {
+  body {
+     -webkit-user-select: none; /* disables selection */
+     -webkit-tap-highlight-color: transparent; /* disables highlighting */
+     -webkit-touch-callout: none; /* disables callouts */ /* needs improvement on the css selectors */
+  }
 }
 
 .text-center {
